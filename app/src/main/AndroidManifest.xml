@@ -10,6 +10,14 @@
         tools:ignore="ScopedStorage" />
     <!-- FOR API 29 -> android:requestLegacyExternalStorage="true" INTO THE APPLICATION -->
 
+<!--    OTHER PERMISSIONS TO REQUEST IN SEQUENCE -->
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"

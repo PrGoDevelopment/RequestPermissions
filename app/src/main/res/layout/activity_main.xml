@@ -41,7 +41,38 @@
             android:layout_marginTop="10dp"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
-            android:text="Save"
+            android:text="CREATE"
+            tools:ignore="HardcodedText" />
+
+<!--        REQUESTING OTHER PERMISSIONS-->
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/teal_700" />
+
+        <TextView
+            android:id="@+id/txt_Permissions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="-- Info Other Permissions --"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btn_requestAllPermissions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="REQUEST ALL PERMISSIONS"
             tools:ignore="HardcodedText" />
     </LinearLayout>
 
